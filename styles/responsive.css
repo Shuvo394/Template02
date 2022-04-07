@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .leaders .leaders-top-box h2 {
+        font-size: 5vmin;
+    }
+
+    .about .about-wrapper .about-small-box img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        padding-left: 5px;
+    }
+}

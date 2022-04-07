@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Sticky Nav */
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: #0000008a;
+  -webkit-animation: ebuy 0.3s;
+          animation: ebuy 0.3s;
+}
+
+@-webkit-keyframes ebuy {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes ebuy {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+h1, h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h2, h4, h5 {
+  font-family: "Merriweather", serif;
+}
+
+header {
+  background-image: url("../assets/images/head-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .head-wrapper {
+  background-color: #002ca959;
+}
+
+header .head-wrapper .nav-brand-box {
+  padding: 1rem 0;
+  background-color: #fff;
+}
+
+header .head-wrapper .nav-brand-box a {
+  color: orangered;
+}
+
+header .head-wrapper nav {
+  background-color: #0009;
+}
+
+header .head-wrapper nav .nav-item {
+  margin-right: 1rem;
+}
+
+header .head-wrapper nav .nav-item .nav-link.active {
+  border-bottom: 1px solid orangered;
+}
+
+header .head-wrapper .head-text-box {
+  text-align: right;
+  margin-top: 60vmin;
+  padding-bottom: 2rem;
+}
+
+header .head-wrapper .head-text-box h1 {
+  color: #fff;
+  font-size: 3.1rem;
+}
+
+header .head-wrapper .head-text-box h3 {
+  color: orangered;
+}
+
+.leaders {
+  margin: 30vmin 0;
+}
+
+.leaders .leaders-top-box {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.leaders .leaders-top-box h2 {
+  color: #BF5D32;
+  font-size: 8vmin;
+  text-transform: uppercase;
+}
+
+.leaders .leaders-top-box hr {
+  width: 40%;
+  margin: 1.5rem auto 3rem;
+}
+
+.leaders .leaders-top-box p {
+  font-size: 16px;
+}
+
+.leaders .leaders-card-box {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.leaders .leaders-card-box .card {
+  margin: 3vmin auto;
+  width: 100% !important;
+}
+
+.leaders .leaders-card-box .card h5 {
+  padding: 3vmin 0;
+}
+
+.leaders .leaders-card-box .card img {
+  width: 100%;
+}
+
+.services {
+  background-image: url("../assets/images/services-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.services .services-wrapper {
+  padding: 3rem 0;
+  background-color: #002ca959;
+}
+
+.services .services-wrapper .services-box {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.services .services-wrapper .services-box h4 {
+  color: orangered;
+  font-size: 3rem;
+}
+
+.services .services-wrapper .services-box h5 {
+  color: #fff;
+}
+
+.services-2 {
+  background-image: url("../assets/images/services-bg-02.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.services-2 .services-2-wrapper {
+  background-color: #0000005e;
+  height: inherit;
+}
+
+.about {
+  background-image: url("../assets/images/about-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.about .about-wrapper {
+  padding: 30vmin 0;
+}
+
+.about .about-wrapper .about-img-box img {
+  width: 100%;
+}
+
+.about .about-wrapper .about-column {
+  -webkit-box-shadow: 2px 5px 10px #00000054;
+          box-shadow: 2px 5px 10px #00000054;
+  border-radius: 5px;
+}
+
+.about .about-wrapper .about-column .about-text-box {
+  text-align: center;
+}
+
+.about .about-wrapper .about-column .about-text-box h2 {
+  padding: 2rem 0 1rem;
+}
+
+.about .about-wrapper .about-column .about-text-box p {
+  font-size: 14px;
+  padding: 0 22px;
+}
+
+.about .about-wrapper .about-small-box {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about .about-wrapper .about-small-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+  margin-bottom: 2rem;
+}
+
+.about .about-wrapper .about-small-box button {
+  text-transform: uppercase;
+}
+
+.contact {
+  background-image: url("../assets/images/contact-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact .contact-wrapper {
+  background-color: #173744cf;
+  padding: 25vmin 0;
+}
+
+.contact .contact-wrapper .contact-text-box {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact .contact-wrapper .contact-text-box h2 {
+  color: #fff;
+  font-size: 3rem;
+  padding: 1.5rem 0;
+}
+
+.contact .contact-wrapper .contact-text-box p {
+  color: #b7b7b7;
+  padding-bottom: 3rem;
+}
+
+.contact .contact-wrapper .contact-form {
+  text-align: right;
+}
+
+.contact .contact-wrapper .contact-form form input {
+  color: #fff;
+  width: 96%;
+  display: inline-block;
+  padding: 5px 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+
+.contact .contact-wrapper .contact-form form input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form input::placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form .form-box-1 input {
+  display: inline-block;
+  width: 48%;
+  padding: 5px 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+}
+
+.contact .contact-wrapper .contact-form form .textBox {
+  background-color: transparent;
+  width: 96%;
+  padding: 5px 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.contact .contact-wrapper .contact-form form .textBox::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form .textBox:-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form .textBox::-ms-input-placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form .textBox::placeholder {
+  color: #fff;
+}
+
+.contact .contact-wrapper .contact-form form .textBox:focus {
+  outline: none !important;
+}
+
+.contact .contact-wrapper .contact-form form button {
+  background-color: orangered;
+}
+
+input:focus-visible {
+  outline-offset: -20px;
+}
+
+footer .footer-top {
+  padding: 3rem 0;
+  background-color: #052830;
+  color: #fff;
+}
+
+footer .footer-top .footer-top-box {
+  margin: 2rem 0;
+}
+
+footer .footer-top .footer-top-box h5 {
+  margin-bottom: 1rem;
+}
+
+footer .footer-top .footer-top-box p {
+  margin: 0;
+}
+
+footer .footer-bottom {
+  padding: 1rem 0;
+  background-color: #000;
+  color: #fff;
+}
+
+footer .footer-bottom .col-sm-6 p {
+  margin: 0;
+}
+
+footer .footer-bottom .col-sm-6 .icon-box {
+  text-align: right;
+}
+
+footer .footer-bottom .col-sm-6 .icon-box svg {
+  margin: 0 1rem;
+  font-size: 20px;
+}
+
+footer .footer-bottom .col-sm-6 .icon-box svg:hover {
+  color: orangered;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

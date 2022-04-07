@@ -1,0 +1,47 @@
+footer {
+    .footer-top {
+        padding: 3rem 0;
+        background-color: #052830;
+        color: #fff;
+    
+        .footer-top-box {
+            margin: 2rem 0;
+    
+            h5 {
+                margin-bottom: 1rem;
+            }
+    
+            p {
+                margin: 0;
+            }
+        }
+    }
+
+    .footer-bottom {
+        padding: 1rem 0;
+        background-color: #000;
+        color: #fff;
+        .col-sm-6 {
+            p {
+                margin: 0;
+            }
+    
+            .icon-box {
+                text-align: right;
+                svg {
+                    margin: 0 1rem;
+                    font-size: 20px;
+
+                    &:hover {
+                        color: orangered;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+            
+                
+    }
+    
+    
+}

@@ -1,0 +1,47 @@
+header {
+    background-image: url("../assets/images/head-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .head-wrapper {
+        background-color: #002ca959;
+        .nav-brand-box {
+            padding: 1rem 0;
+            background-color: #fff;
+
+            a {
+                color: orangered;
+            }
+        }
+
+        nav {
+            background-color: #0009;
+
+            .nav-item {
+                margin-right: 1rem;
+                .nav-link {
+                }
+                .nav-link.active {
+                    border-bottom: 1px solid orangered;
+    
+                }
+            }
+
+        }
+
+        .head-text-box {
+            text-align: right;
+            margin-top: 60vmin;
+            padding-bottom: 2rem;
+
+            h1 {
+                color: #fff;
+                font-size: 3.1rem;
+            }
+            h3 {
+                color: orangered;
+            }
+        }
+    }
+        
+}

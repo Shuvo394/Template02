@@ -1,0 +1,91 @@
+.contact {
+    background-image: url("../assets/images/contact-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+    .contact-wrapper {
+        background-color: #173744cf;
+        padding: 25vmin 0;
+
+        .contact-text-box {
+            width: 60%;
+            margin: 0 auto;
+
+            h2 {
+                color: #fff;
+                font-size: 3rem;
+                padding: 1.5rem 0;
+            }
+            p {
+                color: #b7b7b7;
+                padding-bottom: 3rem;
+            }
+        }
+
+        .contact-form {
+            text-align: right;
+            form {
+                input {
+                    color: #fff;
+                    width: 96%;
+                    display: inline-block;
+                    padding: 5px 10px;
+                    border-top: 0px;
+                    border-left: 0px;
+                    border-right: 0px;
+                    border-bottom: 1px solid #fff;
+                    background: transparent;
+                    &::placeholder {
+                        color: #fff;
+                    }
+                }
+                .form-box-1 input {
+                    display: inline-block;
+                    width: 48%;
+                    padding: 5px 10px;
+                    border-top: 0px;
+                    border-left: 0px;
+                    border-right: 0px;
+                    border-bottom: 1px solid #fff;
+                    background: transparent;
+                }
+                
+                
+                .textBox {
+                    background-color: transparent;
+                    width: 96%;
+                    padding: 5px 10px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: 1px solid #fff;
+                    color: #fff;
+                    margin-bottom: 3rem;
+
+                    &::placeholder {
+                        color: #fff;
+                    }
+
+                    &:focus {
+                        outline: none !important;
+                    }
+                }
+
+                button {
+                    background-color: orangered;
+                }
+            }
+        }
+    }
+
+}
+
+
+main .container .form-container form input:focus {
+    
+}
+
+input:focus-visible {
+    outline-offset: -20px;
+}

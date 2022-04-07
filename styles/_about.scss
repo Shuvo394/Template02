@@ -1,0 +1,48 @@
+.about {
+    background-image: url("../assets/images/about-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .about-wrapper {
+        padding: 30vmin 0;
+            .about-img-box {
+
+                img {
+                    width: 100%;
+                }
+            }
+            .about-column {
+                box-shadow: 2px 5px 10px #00000054;
+                border-radius: 5px;
+
+                .about-text-box {
+                    text-align: center;
+
+                    h2 {
+                        padding: 2rem 0 1rem;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        padding: 0 22px;
+                    }
+                }
+            }
+
+            .about-small-box {
+                text-align: center;
+                margin-bottom: 1rem;
+                img {
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 60%;
+                    margin-bottom: 2rem;
+                }
+
+                button {
+                    text-transform: uppercase;
+                }
+            }
+            
+    }
+}

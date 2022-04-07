@@ -1,0 +1,38 @@
+.leaders {
+    margin: 30vmin 0;
+    .leaders-top-box {
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+
+        h2 {
+            color: #BF5D32;
+            font-size: 8vmin;
+            text-transform: uppercase;
+        }
+        hr {
+            width: 40%;
+            margin: 1.5rem auto 3rem;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .leaders-card-box {
+        text-align: center;
+        margin-top: 5rem;
+        .card {
+            margin: 3vmin auto;
+            width: 100% !important;
+
+            h5 {
+                padding: 3vmin 0;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

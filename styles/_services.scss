@@ -1,0 +1,35 @@
+.services {
+    background-image: url("../assets/images/services-bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    .services-wrapper {
+        padding: 3rem 0;
+        background-color: #002ca959;
+
+        .services-box {
+            text-align: center;
+            margin-bottom: 2rem;
+            h4 {
+                color: orangered;
+                font-size: 3rem;
+            }
+            h5 {
+                color: #fff; 
+            }
+        }
+    }
+}
+
+.services-2 {
+    background-image: url("../assets/images/services-bg-02.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .services-2-wrapper {
+        background-color: #0000005e;
+        height: inherit;
+    }
+}

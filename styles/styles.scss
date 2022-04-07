@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+
+// font-family: 'Merriweather', serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'Source Sans Pro', sans-serif;;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// Variables
+$playFair : 'Playfair Display', serif;
+$sourceSans : 'Source Sans Pro', sans-serif;
+$merriWeather : 'Merriweather', serif;
+
+/* Sticky Nav */
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: #0000008a;
+    animation: ebuy 0.3s;
+}
+
+@keyframes ebuy {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+// Global CSS
+h1, h3 {
+    font-family: $playFair;
+}
+
+h2, h4, h5 {
+    font-family: $merriWeather;
+}
+
+@import "./header";
+
+@import "./leaders";
+
+@import "./services";
+
+@import "./about";
+
+@import "./contact";
+
+@import "./footer";
